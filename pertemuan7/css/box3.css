@@ -1,0 +1,59 @@
+.topbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box{
+    height: 150px;
+}
+
+.topbox .box:nth-child(1){
+    background-color: #f4eb49;
+    width: 20%;
+}
+
+.topbox .box:nth-child(2){
+    width: 79%;
+}
+
+.bg-orange{
+    background-color: #f76424;
+}
+
+/*Mencari class pada container */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    margin-Top: 10px;
+}
+
+.container .box:nth-child(1){
+    background-color: #81c784;
+    width: 20%;
+    height: 600px;
+}
+
+.container .box:nth-child(2){
+    background-color: #e0e0e0;
+    width: 58%;
+    height: 600px;
+}
+
+.container .box:nth-child(3){
+    background-color: #72e7ef;
+    width: 20%;
+    height: 600px;
+}
+
+/* Mencari class pada buttom */
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b3be7;
+    height: 150px;
+    margin-Top: 10px;
+}
